@@ -2,23 +2,23 @@ export const features = [
   {
     id: "0",
     icon: "/images/feature-1.png",
-    caption: "Easy integration",
-    title: "Work smarter not harder",
-    text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+    caption: "Patient oriented",
+    title: "Feel relaxed, we got you covered",
+    text: "With MedSpark, your health is in safe hands. Our AI powered system has everything you can think of as far as health is concerned.",
     button: {
       icon: "/images/magictouch.svg",
-      title: "Watch the demo",
+      title: "Read more",
     },
   },
   {
     id: "1",
     icon: "/images/feature-2.png",
-    caption: "Secure & trustworthy",
-    title: "Sleep easy, we got your back",
-    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
+    caption: "Highly automated",
+    title: "No chance for human error",
+    text: "Our automated system is a complete virtual clinic, your health security is our priority and we assure you of data security and confidentiality .",
     button: {
       icon: "/images/docs.svg",
-      title: "Read the docs",
+      title: "Read more",
     },
   },
 ];
@@ -27,130 +27,130 @@ export const details = [
   {
     id: "0",
     icon: "/images/detail-1.png",
-    title: "AI automated video editing",
+    title: "Symptom checker",
   },
   {
     id: "1",
     icon: "/images/detail-2.png",
-    title: "Collaborate with your team",
+    title: "Medical history",
   },
   {
     id: "2",
     icon: "/images/detail-3.png",
-    title: "Ultra fast cloud-engine",
+    title: "Health tracking",
   },
   {
     id: "3",
     icon: "/images/detail-4.png",
-    title: "24 / 7 Customer support",
+    title: "Telemedicine ",
   },
 ];
 
 export const faq = [
   {
     id: "0",
-    question: "How easy is it to setup Xora?",
+    question: "How easy is it to setup MedSpark?",
     answer:
       "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
   },
   {
     id: "1",
-    question: "Can I integrate Xora with other platforms?",
+    question: "Can I integrate MedSpark with other platforms?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Absolutely! Yes, MedSpark is highy compatible with ither platforms privided you use designated operatoing systems.",
   },
   {
     id: "2",
-    question: "How often do you add new content?",
+    question: "How often do you I sort medical help?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "There is no limitation as far as your subscription has not exhausted the specified duarion. You can rely on MedSpark for your health security anytime",
   },
   {
     id: "3",
     question: "What your refund policy?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Our refund policy has been fair and equitable. It has been clearly stated on the terms of use page",
   },
   {
     id: "4",
     question: "Do you have corporate plans?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Our plans include; basic, professional and enterprice. We may include others in future but with the existing plans, you are highly covered",
   },
   {
     id: "5",
-    question: "What happens when I’m out of storage?",
+    question: "What happens when I run out of subscription?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "When you run out subscription, we still care about you but the response may be limited to a specified number of request per day.",
   },
   {
     id: "6",
     question: "Can I upgrade my plan?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Absolutely! You can upgrade your plan but bear it in mind that one time subscription is cost effective .",
   },
   {
     id: "7",
-    question: "How do I invite my team?",
+    question: "What do i benefit by  inviting people to this app?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Great!. You will get 20% instant reduction in your subscription charge whenever you make referals.",
   },
   {
     id: "8",
-    question: "Do you offer training for individuals and teams?",
+    question: "Do you accept payment in local currencies?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Absolutely! We accept payment in all currencies so far their is monetary equivalence.",
   },
   {
     id: "9",
-    question: "I’m locked out of my account what do I do?",
+    question: "What if i find it difficult login in?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "You can just send an email to our customer service with your login details and get instant response and solution",
   },
 ];
 
 export const plans = [
   {
     id: "0",
-    title: "Core",
-    priceMonthly: 19,
-    priceYearly: 12,
-    caption: "Best for solo creators",
+    title: "Basic",
+    priceMonthly: 34,
+    priceYearly:25 ,
+    caption: "Individual ",
     features: [
-      "100MB Cloud storage",
-      "100+ prompt templates",
-      "5 projects",
-      "24/7 support",
+      "Limited AI-powered diagnosis",
+      "Health tracking features",
+      "Consultations",
+      "Health coaching",
     ],
     icon: "/images/circle.svg",
     logo: "/images/plan-1.png",
   },
   {
     id: "1",
-    title: "Overdrive",
+    title: "Professional",
     priceMonthly: 79,
-    priceYearly: 59,
-    caption: "Most popular plan",
+    priceYearly: 58,
+    caption: "Health providers",
     features: [
-      "All Starter features",
-      "1TB additional storage",
-      "Unlimited projects",
-      "Analytics",
+      "Electronic health records",
+      "Telemedicine consultation",
+      "Patient engagement",
+      "Customized support",
     ],
     icon: "/images/triangle.svg",
     logo: "/images/plan-2.png",
   },
   {
     id: "2",
-    title: "Team",
-    priceMonthly: 39,
-    priceYearly: 29,
-    caption: "Exclusively for teams",
+    title: "Enterprice",
+    priceMonthly: 89,
+    priceYearly: 73,
+    caption: "Large companies",
     features: [
-      "All Overdrive features",
-      "10TB additional storage",
-      "50% off per member",
-      "Real-time collaboration",
+      "AI-powered analytics",
+      "Customized reporting",
+      "Advanced analytics",
+      "Real-time data report",
     ],
     icon: "/images/hexagon.svg",
     logo: "/images/plan-3.png",
@@ -160,51 +160,51 @@ export const plans = [
 export const testimonials = [
   {
     id: "0",
-    name: "Jessica Saunders",
-    role: "Globalnomads",
+    name: "Pauline Hummels",
+    role: "Pharmacist",
     avatarUrl: "/images/testimonials/jessica-saunders.png",
     comment:
-      "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
+      "MedSpark's customer support is second to none! They’re are super professionals and dedicated.",
   },
   {
     id: "1",
-    name: "Mark Erixon",
-    role: "Vid capital intl",
+    name: "Hillary Rousells",
+    role: "Lab Scientist",
     avatarUrl: "/images/testimonials/mark-erixon.png",
     comment:
-      "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
+      "The jobs is always done and i love the quick response and fast diagnosis.",
   },
   {
     id: "2",
-    name: "Melanie Hurst",
-    role: "Cyberleap",
+    name: "Emelda Bruce",
+    role: "Surgeon",
     avatarUrl: "/images/testimonials/melanie-hurst.png",
     comment:
-      "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
+      "Adopting this software has been good decison, it makes great tasks simple to accomplish.",
   },
   {
     id: "3",
-    name: "Alicia Barker",
-    role: "Cyberleap",
+    name: "Faustina Alice",
+    role: "nurse",
     avatarUrl: "/images/testimonials/alicia-barker.png",
     comment:
-      "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
+      "The analytics feature is so so amazing and exceptional. It's been instrumental in guiding our health decisions.",
   },
   {
     id: "4",
-    name: "Becky Snider",
-    role: "Floclips",
+    name: "Eunice Paerl",
+    role: "Teacher",
     avatarUrl: "/images/testimonials/becky-snider.png",
     comment:
-      "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
+      "It has been live changing opportunity using MedSpark.The plans are pocket friendly when equated to the benefits",
   },
   {
     id: "5",
-    name: "Jim Bradley",
-    role: "Vid capital intl",
+    name: "John Heckels",
+    role: "Student",
     avatarUrl: "/images/testimonials/jim-bradley.png",
     comment:
-      "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
+      "The diagnosis and treatment suggestion are top-notch, helping medical students like us to standardize our claims.",
   },
 ];
 

@@ -13,17 +13,23 @@ const Download = () => {
           <div className="flex items-center">
             <div className="relative mr-6 flex-540 max-xl:flex-280 max-lg:flex256 max-md:flex-100">
               <div className="mb-10">
-                <img
+                {/* <img
                   src="/images/xora.svg"
                   width={160}
                   height={55}
                   alt="xora"
-                />
+                /> */}
+                 <span className="flex font-semibold text-2xl  px-2 ">
+                      <span className="px-1">
+                        <img src="/images/logo_ai.jpeg" alt="logo" className="w-12 h-8"/>
+                      </span>
+                      <span className="text-purple-500">Med</span>
+                      <span className="text-white">Spark</span>
+                    </span>
               </div>
 
               <p className="body-1 mb-10 max-w-md">
-                Try it now for free on iOS, Android, PC, Web - whatever your
-                flavor, we've got you covered.
+                Available for free on iOS, Android, Desktop, Web ...
               </p>
 
               <ul className="flex flex-wrap items-center gap-6">
@@ -59,7 +65,7 @@ const Download = () => {
                   <span className="download_preview-dot left-16 bg-p1/15" />
 
                   <img
-                    src="/images/screen.jpg"
+                    src="/images/ai_clinic.png"
                     width={855}
                     height={655}
                     alt="screen"
