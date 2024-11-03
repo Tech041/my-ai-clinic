@@ -51,19 +51,19 @@ export const faq = [
     id: "0",
     question: "How easy is it to setup MedSpark?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Very simple ! Once the app is downloaded the set up is straight away. It is highly automated and does mot require rigorous procedure.",
   },
   {
     id: "1",
     question: "Can I integrate MedSpark with other platforms?",
     answer:
-      "Absolutely! Yes, MedSpark is highy compatible with ither platforms privided you use designated operatoing systems.",
+      "Absolutely! Yes, MedSpark is highy compatible with other platforms privided you use designated operating systems.",
   },
   {
     id: "2",
     question: "How often do you I sort medical help?",
     answer:
-      "There is no limitation as far as your subscription has not exhausted the specified duarion. You can rely on MedSpark for your health security anytime",
+      "There is no limitation as far as your subscription has not exhausted within specified duarion. You can rely on MedSpark for your health security anytime",
   },
   {
     id: "3",
@@ -99,11 +99,11 @@ export const faq = [
     id: "8",
     question: "Do you accept payment in local currencies?",
     answer:
-      "Absolutely! We accept payment in all currencies so far their is monetary equivalence.",
+      "Absolutely! We accept payment in all currencies so far their is monetary equivalence to $USD.",
   },
   {
     id: "9",
-    question: "What if i find it difficult login in?",
+    question: "What if i find it difficult to login in?",
     answer:
       "You can just send an email to our customer service with your login details and get instant response and solution",
   },
@@ -196,7 +196,7 @@ export const testimonials = [
     role: "Teacher",
     avatarUrl: "/images/testimonials/becky-snider.png",
     comment:
-      "It has been live changing opportunity using MedSpark.The plans are pocket friendly when equated to the benefits",
+      "It has been a great opportunity using MedSpark.The plans are pocket friendly when equated to the benefits",
   },
   {
     id: "5",
