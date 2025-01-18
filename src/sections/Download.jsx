@@ -1,8 +1,12 @@
 import { Element } from "react-scroll";
 import { links, logos } from "../constants/index.jsx";
 import { Marker } from "../components/Marker.jsx";
+import { toast } from "react-toastify";
 
 const Download = () => {
+  const handleClick = () => {
+    toast.error("Service Unavailable");
+  };
   return (
     <section>
       <Element
@@ -19,13 +23,17 @@ const Download = () => {
                   height={55}
                   alt="xora"
                 /> */}
-                 <span className="flex font-semibold text-2xl  px-2 ">
-                      <span className="px-1">
-                        <img src="/images/logo_ai.jpeg" alt="logo" className="w-12 h-8"/>
-                      </span>
-                      <span className="text-purple-500">Med</span>
-                      <span className="text-white">Spark</span>
-                    </span>
+                <span className="flex font-semibold text-2xl  px-2 ">
+                  <span className="px-1">
+                    <img
+                      src="/images/logo_ai.jpeg"
+                      alt="logo"
+                      className="w-12 h-8"
+                    />
+                  </span>
+                  <span className="text-purple-500">Med</span>
+                  <span className="text-white">Spark</span>
+                </span>
               </div>
 
               <p className="body-1 mb-10 max-w-md">
@@ -50,7 +58,12 @@ const Download = () => {
                         alt="lines"
                         className="absolute size-13/20 object-contain"
                       />
-                      <span className="download_tech-icon">{icon}</span>
+                      <span
+                        onClick={handleClick}
+                        className="download_tech-icon"
+                      >
+                        {icon}
+                      </span>
                     </a>
                   </li>
                 ))}
