@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
         <div
           onClick={() => setOpen((prev) => !prev)}
-          className="flex md:hidden absolute right-8 cursor-pointer z-50"
+          className="flex md:hidden absolute right-8 top-[62px] cursor-pointer z-50"
         >
           {open ? (
             <IoCloseSharp color="white" size={40} />
