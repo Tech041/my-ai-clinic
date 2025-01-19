@@ -6,8 +6,8 @@ const Hero = () => {
       className="relative pt-60 pb-40 max-lg:pt-52 max-lg:pb-36 max-md:pt-36 max-md:pb-32"
       id="hero"
     >
-      <div className="container">
-        <div className="relative z-2 max-w-512 max-lg:max-w-388">
+      <div className="container flex justify-between">
+        <div className="  flex-1 z-2 max-w-512 max-lg:max-w-388">
           <div className="caption small-2 uppercase text-p3">
             Automated clinic
           </div>
@@ -18,14 +18,15 @@ const Hero = () => {
             Developed to automate health care delivery, reduce human error and
             improve general health care services.
           </p>
-
-          <Button icon="/images/zap.svg">Try it now</Button>
+          <a href="#pricing"> 
+            <Button icon="/images/zap.svg">Try it now</Button>
+          </a>{" "}
         </div>
 
-        <div className="absolute -top-32 left-0 w-[1230px] pointer-events-none hero-img_res">
+        <div className="hidden flex-1 md:block hero-img_res">
           <img
             src="/images/hero_ai.jpeg"
-            className="size-1230 max-md:hidden max-lg:h-auto"
+            className=" w-[700px] h-[400px] max-md:hidden max-lg:h-auto"
             alt="hero"
           />
         </div>

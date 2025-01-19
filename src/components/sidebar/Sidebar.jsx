@@ -12,7 +12,7 @@ const Sidebar = () => {
 
   const [extended, setExtended] = useState(false);
   return (
-    <div className="sidebar hidden md:block">
+    <div className="sidebar  hidden md:block ">
       {/* Top div */}
       <div className="top">
         <img
@@ -44,7 +44,7 @@ const Sidebar = () => {
         ) : null}
       </div>
       {/* Bottom div */}
-      <div className="bottom">
+      <div className="bottom mt-40">
         <div className="bottom-item recent-entry">
           <img src={assets.question_icon} alt="" className="" />
           {extended ? <p className="">Help</p> : null}

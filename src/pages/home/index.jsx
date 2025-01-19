@@ -5,10 +5,12 @@ import Pricing from "../../sections/Pricing";
 import Testimonials from "../../sections/Testimonials";
 import Download from "../../sections/Download";
 import Footer from "../../sections/Footer";
+import Navbar from "../../sections/Navbar";
 
 const Home = () => {
   return (
     <main className=" home overflow-hidden">
+      <Navbar/>
       <Hero />
       <Features />
       <Pricing />

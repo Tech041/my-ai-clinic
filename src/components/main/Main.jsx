@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { assets } from "../../assets/assets";
 import "./Main.css";
 import { context } from "../../context/Contex";
+import { Link } from "react-router-dom";
 
 const card = " w-full md:w-auto border-2  px-4 py-2 rounded-2xl";
 
@@ -17,8 +18,13 @@ const Main = () => {
   } = useContext(context);
   return (
     <div className="main flex-1 px-5  pb-5 relative ">
-      <div className="nav flex justify-between p-5">
-        <p className="">Pharm Nelson</p>
+      <div className="mt-5 py-5">
+        <Link className="py-2 px-4 bg-blue-600 text-white rounded-full" to={'/'}>
+        BACK TO HOME
+        </Link>
+      </div>
+      <div className="nav flex justify-between items-center p-5">
+        <p className="text-green-600 ">Pharm Nelson</p>
         <img src={assets.user_icon} alt="" className="w-10 rounded-[50%]" />
       </div>
       <div className="main-container max-w-[900px] m-auto">
@@ -26,9 +32,9 @@ const Main = () => {
           <>
             <div className="greet my-[50px] p-5 ">
               <p className="">
-                <span className="text-3xl font-semibold">Hello, Dear</span>
+                <span className="text-3xl font-semibold text-blue-700">Hello, dear...</span>
               </p>
-              <p className="">Ask me anything !!</p>
+              <p className="py-1">Am glad to have you!!</p>
             </div>
             <div className="cards flex flex-col md:flex-row justify-center items-center gap-4">
               <div className={card}>
@@ -55,7 +61,7 @@ const Main = () => {
                 alt=""
                 className="w-10 rounded-[50%]"
               />
-              <p className="">{recentPrompt}</p>
+              <p className="text-xl font-semibold text-black">{recentPrompt}</p>
             </div>
             <div className="result-data flex items-start gap-4">
               {/* <img src={assets.gemini_icon} alt="" /> */}
@@ -75,7 +81,7 @@ const Main = () => {
           </div>
         )}
 
-        <div className="main-bottom   my-10 px-4">
+        <div className="main-bottom   mt-20 px-4">
           <div className="search-box flex py-4 px-4 border-2 rounded-3xl  ">
             <input
               onChange={(e) => setInput(e.target.value)}
@@ -84,7 +90,7 @@ const Main = () => {
               className=" w-full  focus:outline-none "
               placeholder="Enter a prompt here ..."
             />
-            <div className="flex  ">
+            <div className=" flex items-center justify-center px-3 ">
               <img
                 onClick={() => onSent()}
                 src={assets.send_icon}

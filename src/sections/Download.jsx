@@ -7,7 +7,7 @@ const Download = () => {
     toast.error("Service Unavailable");
   };
   return (
-    <section>
+    <section id="download">
       <div className="g7 relative pb-32 pt-24 max-lg:pb-24 max-md:py-16">
         <div className="container">
           <div className="flex items-center">
