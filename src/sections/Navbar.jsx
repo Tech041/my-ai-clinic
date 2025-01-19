@@ -9,8 +9,8 @@ const Navbar = () => {
     <div className=" w-screen  z-50 bg-black fixed">
       <div className="container text-white  flex  justify-between h-auto pt-10  ">
         {/* left */}
-        <div className=" cursor-pointer">
-          <a href="#hero">
+        <div className=" cursor-pointer mb-3">
+          <a className="flex justify-center items-center gap-2" href="#hero">
             <span className="px-1">
               <img
                 src="/images/logo_ai.jpeg"
@@ -18,11 +18,15 @@ const Navbar = () => {
                 className="w-16 h-10  rounded-full "
               />
             </span>
+            <span className="">
+              <span className="text-purple-500">Med</span>
+              <span className="text-white">Spark</span>
+            </span>
           </a>
         </div>
         <div
           onClick={() => setOpen((prev) => !prev)}
-          className="flex md:hidden absolute right-8 top-[62px] cursor-pointer z-50"
+          className="flex md:hidden absolute right-8 top-[35px] cursor-pointer z-50"
         >
           {open ? (
             <IoCloseSharp color="white" size={40} />
