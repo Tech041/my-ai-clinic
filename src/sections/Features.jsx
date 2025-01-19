@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 
 const Features = () => {
   const handleClick = () => {
-    toast.error("Not availaable on free mode");
+    toast.error("Not available on free mode");
   };
   return (
     <section>
