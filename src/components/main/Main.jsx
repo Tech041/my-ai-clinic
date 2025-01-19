@@ -40,7 +40,9 @@ const Main = () => {
                 <img src={assets.bulb_icon} alt="" className="" />
               </div>
               <div className={card}>
-                <p className="">Am gald to have you in my clinic,let us chat.</p>
+                <p className="">
+                  Am gald to have you in my clinic,how can I help you?.
+                </p>
                 <img src={assets.message_icon} alt="" className="" />
               </div>
             </div>
