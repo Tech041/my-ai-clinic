@@ -36,7 +36,7 @@ const Sidebar = () => {
                   className="recent-entry"
                 >
                   <img src={assets.message_icon} alt="" className="" />
-                  <p className="">{item.slice(0, 18)}...</p>
+                  <p className=" text-blue-800">{item.slice(0, 18)}...</p>
                 </div>
               );
             })}

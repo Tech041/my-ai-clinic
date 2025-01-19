@@ -58,7 +58,7 @@ const Main = () => {
               <p className="">{recentPrompt}</p>
             </div>
             <div className="result-data flex items-start gap-4">
-              <img src={assets.gemini_icon} alt="" />
+              {/* <img src={assets.gemini_icon} alt="" /> */}
               {loading ? (
                 <div className="loader w-[100%] flex flex-col gap-[10px]">
                   <hr />
@@ -68,7 +68,7 @@ const Main = () => {
               ) : (
                 <p
                   dangerouslySetInnerHTML={{ __html: resultData }}
-                  className="font-[300] text-[17px] leading-[1.8]"
+                  className="font-[300] py-5 text-[17px] leading-[1.8]"
                 ></p>
               )}
             </div>
